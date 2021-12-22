@@ -15,6 +15,7 @@ public class PagefactoryManager {
 	private CreateOrganizationPage createOrgPage;
 	private OrganizationInformationPage orgInfoPage;
 	
+	
 	public LoginPage initLoginPage(WebDriver driver) {
 		return (loginPage==null)?new LoginPage(driver):loginPage;
 	}
